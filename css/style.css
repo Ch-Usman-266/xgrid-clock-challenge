@@ -1,0 +1,51 @@
+.clock-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.clock-container {
+    background-image: url('../image/outer-rim.png'); 
+}
+
+.clock-face-hours {
+    background-image: url('../image/hour-markings.png');    
+
+}
+
+.clock-face-minutes {
+    background-image: url('../image/minute-markings.png');
+
+}
+
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-hands-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand-image {
+    height: 100px;
+    width: 100px;
+}
+
+.hour-hand{
+    position: relative;
+    left: 15px;
+    top: -10px;
+}
+
+.minute-hand{
+    position: relative;
+    left: -15px;
+    top: -10px;
+
+}
+
